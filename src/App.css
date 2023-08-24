@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  overflow-y: auto;
+}
+.bundle {
+  color: palevioletred;
+  font-weight: bold;
+}
+.content-container {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+.add-to-cart-btn {
+  padding: 12px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: palevioletred;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+.label-1-conatiner {
+  border: 1px solid grey;
+  padding: 16px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.label-2-conatiner {
+  border: 1px solid grey;
+  padding: 16px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.shipping-container {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.shipping,
+.most-popular {
+  color: palevioletred;
+  font-weight: bold;
+}
+.total {
+  color: black;
+  font-weight: bold;
+}
+.dkk-tag {
+  padding-left: 20px;
+}
+.size-colour {
+  display: flex;
+}
+.size-selector {
+  display: flex;
+}
+.pair-2-selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selector {
+  height: 30px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.size {
+  padding-left: 28px;
+}
+.colour {
+  padding-left: 30px;
+}
+.pair-2-label {
+  padding-top: 34px;
+}
+.selected-pair {
+  border: 1px solid palevioletred;
+  background-color: #f3e0e0;
+}
